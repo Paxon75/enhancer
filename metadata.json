@@ -1,0 +1,6 @@
+{
+  "name": "AI Prompt Enhancer",
+  "description": "An intelligent tool to refine your basic image generation prompts by asking key questions and providing enhanced versions with suggestions, powered by Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

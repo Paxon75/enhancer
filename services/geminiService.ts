@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from '@google/genai';
+import GoogleGenerativeAI from '@google/genai';
 import type { QuestionAnswer, EnhancedPromptResult, ReferenceImage, OutputType } from '../types';
 
 const API_KEY = process.env.API_KEY || process.env.GEMINI_API_KEY;

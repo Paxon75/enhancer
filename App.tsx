@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import { AppState, OutputType } from './types';
 import type { QuestionAnswer, EnhancedPromptResult, ReferenceImage } from './types';
@@ -13,7 +12,7 @@ import {
 } from './services/geminiService';
 import TextInput, { TextArea } from './components/TextInput';
 import Button from './components/Button';
-import LoadingSpinner from './components/LoadingSpinner';
+import LoadingSpinner from './components/LoadingSpinner.tsx';
 
 const MAX_IMAGE_SIZE_MB = 5;
 const ALLOWED_IMAGE_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
